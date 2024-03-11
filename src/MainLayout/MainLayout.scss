@@ -1,0 +1,56 @@
+.main-layout-container {
+  font-family: var(--overall-font);
+
+  // .ant-modal-content {
+  //   // height: 570rem;
+  //   padding: 0rem;
+  //   border-radius: 10rem;
+
+  //   .main-layout-main {
+  //     display: flex;
+  //   }
+  // }
+}
+
+.main-layout-main {
+  width: 100%;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// @media only screen and (max-width: 850px) {
+//   .main-layout-main,
+//   .credit-form-inputs {
+//     flex-direction: column;
+//   }
+
+//   .invoice-info-container {
+//     border-bottom: 1rem dashed #c3c3c3;
+//   }
+// }
+
+@media (min-width: 576px) {
+  .main-layout-main {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-layout-main {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-layout-main {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-layout-main {
+    max-width: 1200px;
+  }
+}

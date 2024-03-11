@@ -1,0 +1,70 @@
+.bot-category {
+  display: flex;
+  // height: 200px;
+  .list-market {
+    .head {
+      color: #687077;
+      padding: 12px 0px;
+      font-size: 13rem;
+
+    }
+
+    width: 30%;
+    border-right: solid 1px #dde1e6;
+    padding: 8px 16px;
+    font-size: 12rem;
+    .list-market-item {
+      cursor: pointer;
+      display: flex;
+      padding: 8px 16px;
+      img {
+        width: 60px;
+        height: 20px;
+        margin-right: 8px;
+      }
+    }
+    // .list-market-item-text {
+    // }
+    .active {
+      color: #fd7e14;
+    }
+  }
+  .list-category {
+    width: 70%;
+    padding: 8px 16px;
+    cursor: pointer;
+    .category-tittle {
+      font-size: 13rem;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+    .category-name {
+      padding: 8px 16px;
+      display: flex;
+      font-size: 12rem;
+      width: 33%;
+
+      &:hover {
+        color: #fd7e14;
+      }
+    }
+  }
+}
+
+.top-category {
+  display: flex;
+  .top-category-left {
+    width: 30%;
+    font-size: 13rem;
+    font-weight: bold;
+    padding: 13px 140px 13px 16px;
+    line-height: 25px;
+    border-bottom: solid 1px #dde1e6;
+    width: 230px;
+  }
+  .top-category-right {
+    width: 70%;
+    border-bottom: solid 1px #dde1e6;
+    padding: 13px 16px;
+  }
+}

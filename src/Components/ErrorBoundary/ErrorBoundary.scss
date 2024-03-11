@@ -1,0 +1,16 @@
+.error-boundary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 100%;
+
+  .error-boundary-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300rem;
+    width: 300rem;
+    background-image: url("./assets/something-went-wrong.png");
+  }
+}

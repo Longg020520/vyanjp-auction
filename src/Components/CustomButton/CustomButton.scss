@@ -1,0 +1,35 @@
+@mixin customized-button-style {
+  background: linear-gradient(
+    76.73deg,
+    #1259e3 -22.26%,
+    #4880ec 91.43%
+  ) !important;
+  border-color: transparent !important;
+  color: white !important;
+}
+
+.customized-button {
+  width: 200rem;
+  height: auto;
+  line-height: 40rem;
+  border-radius: 20rem;
+  opacity: 0.8;
+  padding: 0rem;
+  font-weight: 400;
+  font-size: 16rem;
+  border-color: transparent;
+}
+
+.customized-active-button {
+  @include customized-button-style;
+
+  &:hover {
+    @include customized-button-style;
+    opacity: 0.9;
+  }
+
+  &:active {
+    @include customized-button-style;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,28 @@
+@mixin button-style {
+  background: white !important;
+  color: var(--overall-main-blue) !important;
+  border-color: var(--overall-icon-blue) !important;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+
+  .back-button {
+    @include button-style;
+
+    &:hover {
+      @include button-style;
+      opacity: 0.9;
+    }
+
+    &:active {
+      @include button-style;
+      opacity: 1;
+    }
+  }
+
+  .buttons-break {
+    width: 20rem;
+  }
+}

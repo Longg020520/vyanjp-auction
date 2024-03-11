@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "CustomizedFont";
+  src: url("../Assets/Fonts/Mulish-Regular.ttf") format("truetype");
+}
+
+:root {
+  --overall-font: "CustomizedFont", sans-serif;
+  --overall-main-black: #000000;
+  --overall-main-blue: #155be4;
+  --overall-icon-blue: #135ae4;
+  --overall-blur-text: #6a6a6a;
+  --overall-blue-text: #083175;
+  --overall-error-color: #d71920;
+}
