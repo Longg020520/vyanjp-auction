@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vyanjp-auction/static/css/main.c4d9b2b4.css",
-    "main.js": "/vyanjp-auction/static/js/main.5623999b.js",
+    "main.js": "/vyanjp-auction/static/js/main.c7439c4b.js",
     "static/media/Mulish-Regular.ttf": "/vyanjp-auction/static/media/Mulish-Regular.d3d302e1573fb1c8db5b.ttf",
     "static/media/something-went-wrong.png": "/vyanjp-auction/static/media/something-went-wrong.89c2bd79c878b3aa4160.png",
     "index.html": "/vyanjp-auction/index.html",
     "main.c4d9b2b4.css.map": "/vyanjp-auction/static/css/main.c4d9b2b4.css.map",
-    "main.5623999b.js.map": "/vyanjp-auction/static/js/main.5623999b.js.map"
+    "main.c7439c4b.js.map": "/vyanjp-auction/static/js/main.c7439c4b.js.map"
   },
   "entrypoints": [
     "static/css/main.c4d9b2b4.css",
-    "static/js/main.5623999b.js"
+    "static/js/main.c7439c4b.js"
   ]
 }
