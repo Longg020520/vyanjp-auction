@@ -29,7 +29,7 @@ const ListProductAucnet = () => {
 
   const getData = async () => {
     try {
-      let query = `?limit=${limit}&offset=${offset}`;
+      let query = `?limit=${limit}&offset=${offset}&seriBng[sort]=asc`;
       if (genre) query = query.concat(`&genre[contains]=${genre}`);
       if (maker) query = query.concat(`&maker[contains]=${maker}`);
       const data: any = await aucnetAPI.getListProduct(query);
@@ -49,7 +49,7 @@ const ListProductAucnet = () => {
   };
 
   const onShowSizeChange = (current: any, pageSize: any) => {
-    setOffset(current - 1);
+    setOffset(offset + pageSize);
     setLimit(pageSize);
   };
 
