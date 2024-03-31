@@ -42,9 +42,10 @@ const ListProductAucnet = () => {
   };
 
   const navigateMaker = (maker: string) => {
-    let query = `?`;
-    if (genre) query = query.concat(`&genre=${genre}`);
-    window.location.replace(`${query}&maker=` + maker);
+    let query = "/vyanjp-auction/aucnet/category?";
+    if (genre) query = query.concat(`genre=${genre}&`);
+    window.location.replace(`${query}maker=` + maker);
+    // console.log(window.location.pathname + `?maker=` + maker);
   };
 
   const onShowSizeChange = (current: any, pageSize: any) => {
