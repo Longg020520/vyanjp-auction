@@ -1,32 +1,38 @@
 import React from "react";
-import "./CategoryBody.scss";
+import "./CategoryItem.scss";
 import { useNavigate } from "react-router-dom";
+import { Col } from "antd";
 
 interface PT {
   categoryName?: string;
   imgUrlCategory?: string;
   path: string;
+  spanNumber?: number;
 }
 
-const CategoryBodyTopDetail: React.FC<PT> = ({
+const CategoryItem: React.FC<PT> = ({
   categoryName,
   imgUrlCategory,
   path,
+  spanNumber,
 }) => {
   const navegate = useNavigate();
   const handlePath = (path: string) => {
     navegate(path);
   };
   return (
-    <div className="category-body-bot" onClick={() => handlePath(path)}>
+    <Col
+      span={spanNumber}
+      className="category-item-container"
+      onClick={() => handlePath(path)}
+    >
       <img
         src={imgUrlCategory}
         alt={categoryName}
-        style={{ width: 140, height: 140 }}
       />
       <p className="categoryName">{categoryName}</p>
-    </div>
+    </Col>
   );
 };
 
-export default React.memo(CategoryBodyTopDetail);
+export default React.memo(CategoryItem);

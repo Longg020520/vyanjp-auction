@@ -97,28 +97,36 @@ const MainFooter = () => {
               Kết nối với Vyanjp
             </span>
             <span>
-              <img
-                src="https://cdn.janbox.com/image/default/2021/5/5/20210505072411.png"
-                alt=""
-              />
+              <a href="https://www.facebook.com/Nongg11120">
+                <img
+                  src="https://cdn.janbox.com/image/default/2021/5/5/20210505072411.png"
+                  alt=""
+                />
+              </a>
             </span>
             <span>
-              <img
-                src="https://cdn.janbox.com/image/default/2021/5/5/20210505085117.png"
-                alt=""
-              />
+              <a href="https://www.facebook.com/Nongg11120">
+                <img
+                  src="https://cdn.janbox.com/image/default/2021/5/5/20210505085117.png"
+                  alt=""
+                />
+              </a>
             </span>
             <span>
-              <img
-                src="https://cdn.janbox.com/image/default/2021/8/16/20210816085803.png"
-                alt=""
-              />
+              <a href="https://www.facebook.com/Nongg11120">
+                <img
+                  src="https://cdn.janbox.com/image/default/2021/8/16/20210816085803.png"
+                  alt=""
+                />
+              </a>
             </span>
             <span>
-              <img
-                src="https://cdn.janbox.com/image/default/2021/8/16/20210816085814.png"
-                alt=""
-              />
+              <a href="https://www.facebook.com/Nongg11120">
+                <img
+                  src="https://cdn.janbox.com/image/default/2021/8/16/20210816085814.png"
+                  alt=""
+                />
+              </a>
             </span>
           </div>
         </Col>

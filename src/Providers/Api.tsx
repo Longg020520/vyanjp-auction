@@ -1,7 +1,7 @@
 import { message } from "antd";
 import Axios from "axios";
 
-export const baseURL = process.env.REACT_APP_API_URL;
+export const baseURL = "http://localhost:11200";
 
 const Api = Axios.create({
   baseURL: baseURL,

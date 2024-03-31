@@ -1,29 +1,17 @@
 .main-header-container {
-  height: 80rem;
+  height:90rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1rem solid #c3c3c3;
-  padding: 0rem 17rem;
+  padding: 0rem 17rem !important;
   background-color: #fd7e14;
-
-  .header {
-    width: 100%;
-    padding-right: 12px;
-    padding-left: 12px;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
-    position: relative;
-  }
 
   .brand-name {
     font-family: "Outfit", sans-serif;
     color: white;
     width: 100px;
     font-size: 16rem;
-
   }
 
   @media (min-width: 576px) {
@@ -69,7 +57,7 @@
       flex: 1;
       padding: 10px;
       height: 30px;
-      min-width: 400px;
+      // min-width: 400px;
       font-size: 14px;
       &:focus {
         outline: none;
@@ -83,9 +71,15 @@
       background: transparent;
       border: none;
       background-color: white;
-      width: 60px;
+      // width: 60px;
       height: 50px;
       border-radius: 0px 10px 10px 0px;
     }
+  }
+
+  .header-right {
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
   }
 }

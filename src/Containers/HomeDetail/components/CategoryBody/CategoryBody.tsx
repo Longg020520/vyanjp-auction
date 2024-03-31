@@ -6,8 +6,8 @@ import {
   LIST_MARKET,
 } from "../../../../constants";
 import CategoryBodyTopDetail from "./CategoryBodyTopDetail";
-import CategoryBodyBotDetail from "./CategoryBodyBotDetail";
-import { Col, Row } from "antd";
+import { Row } from "antd";
+import CategoryItem from "../../../../Components/CategoryItem/CategoryItem";
 
 const CategoryBody = () => {
   return (
@@ -28,14 +28,13 @@ const CategoryBody = () => {
             <Row>
               {data.map((item, i) => {
                 return (
-                  <Col span={6} key={i}>
-                    <CategoryBodyBotDetail
-                      key={i}
-                      path={item.path}
-                      categoryName={item.name}
-                      imgUrlCategory={item.imgUrl}
-                    />
-                  </Col>
+                  <CategoryItem
+                    key={i}
+                    path={item.path}
+                    categoryName={item.name}
+                    imgUrlCategory={item.imgUrl}
+                    spanNumber={6}
+                  />
                 );
               })}
             </Row>

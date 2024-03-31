@@ -1,0 +1,29 @@
+.carousel-image-container {
+  .carousel-root {
+    .thumbs-wrapper .axis-vertical {
+      .control-arrow .control-prev {
+        button {
+          background: red !important;
+        }
+        background: red !important;
+      }
+    }
+  }
+  .carousel .control-next.control-arrow:before {
+    background: black !important;
+    color: red;
+  }
+  .carousel .control-prev.control-arrow:before {
+    background: black !important;
+    color: red;
+  }
+
+  // .custom-modal {
+
+  // }
+}
+
+// .ant-modal-content {
+//   width:  !important;
+//   height: 1000px !important;
+// }

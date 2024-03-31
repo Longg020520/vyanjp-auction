@@ -176,11 +176,22 @@ export default class Util {
 
   static getByQuery(query: string[]) {
     const params = new URLSearchParams(window.location.search);
-    let ans: any = {};
+    const ans: any = {};
     query.forEach((a) => {
       const found = params.get(a);
       ans[a] = found;
     });
     return ans;
+  }
+
+  static getQueryForFilter() {
+    // const params = new URLSearchParams(window.location.search);
+    // const ans: any = {};
+    // query.forEach((a) => {
+    //   const found = params.get(a);
+    //   ans[a] = found;
+    // });
+    // return ans;
+    return "";
   }
 }
