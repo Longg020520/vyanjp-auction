@@ -16,7 +16,10 @@ const MainHeader = () => {
   const isMobile = useMemo(() => width < 640, [width]); // is mobile size if width < 640
 
   return (
-    <Row className="main-header-container" style={{height: `${!isMobile ? '100rem' : '65rem'}`}}>
+    <Row
+      className="main-header-container"
+      style={{ height: `${!isMobile ? '100rem' : '65rem'}` }}
+    >
       {!isMobile && (
         <Col span={24} className="d-flex top-bar">
           <div className="left">
@@ -32,9 +35,16 @@ const MainHeader = () => {
         </Col>
       )}
 
-      <div className="header" style={{paddingBottom: `${!isMobile ? '20px' : '0px'}`}}>
+      <div
+        className="header"
+        style={{ paddingBottom: `${!isMobile ? '20px' : '0px'}` }}
+      >
         {!isMobile && (
-          <Col span={4} className="brand-name d-flex j-center">
+          <Col
+            span={4}
+            className="brand-name d-flex j-center"
+            onClick={() => window.location.replace('/')}
+          >
             <DingtalkOutlined /> Vyanjp Auction
           </Col>
         )}
