@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.eade9492.css",
-    "main.js": "/static/js/main.45ece4b0.js",
+    "main.css": "/static/css/main.4f6416e4.css",
+    "main.js": "/static/js/main.a6d4839e.js",
     "static/media/Mulish-Regular.ttf": "/static/media/Mulish-Regular.d3d302e1573fb1c8db5b.ttf",
     "static/media/something-went-wrong.png": "/static/media/something-went-wrong.89c2bd79c878b3aa4160.png",
     "index.html": "/index.html",
-    "main.eade9492.css.map": "/static/css/main.eade9492.css.map",
-    "main.45ece4b0.js.map": "/static/js/main.45ece4b0.js.map"
+    "main.4f6416e4.css.map": "/static/css/main.4f6416e4.css.map",
+    "main.a6d4839e.js.map": "/static/js/main.a6d4839e.js.map"
   },
   "entrypoints": [
-    "static/css/main.eade9492.css",
-    "static/js/main.45ece4b0.js"
+    "static/css/main.4f6416e4.css",
+    "static/js/main.a6d4839e.js"
   ]
 }
