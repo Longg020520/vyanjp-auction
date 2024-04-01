@@ -7,7 +7,7 @@ import { MainRoutesType } from "../Types/routes.type";
 
 export const MainRoutes: MainRoutesType[] = [
   {
-    path: "/vyanjp-auction",
+    path: "/",
     element: <HomeDetail />,
   },
   {
