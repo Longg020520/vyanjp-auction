@@ -53,21 +53,21 @@ const listField = [
 
 const ContentProduct: React.FC<PT> = ({ data }) => {
   return (
-    <Col span={12} className="content-product-container">
+    <Col span={14} className="content-product-container">
       <div className="field-product d-flex">
-        <p style={{ marginRight: "10%", width: "20%" }}>Start Price:</p>
+        <p style={{ marginRight: "30%", width: "20%" }}>Start Price:</p>
         <p className="text-bold">{data.startKng} yen</p>
       </div>
 
       <div className="field-product d-flex">
-        <p style={{ marginRight: "10%", width: "20%" }}>Current Price:</p>
+        <p style={{ marginRight: "30%", width: "20%" }}>Current Price:</p>
         <p className="text-bold">{data.genzaiKng} yen</p>
       </div>
 
       {listField.map((item, index) => {
         return (
           <div key={index} className="field-product d-flex">
-            <p style={{ marginRight: "10%", width: "20%" }}>{item.title}:</p>
+            <p style={{ marginRight: "30%", width: "20%" }}>{item.title}:</p>
             <p>{data[`${item.key}`]}</p>
           </div>
         );
@@ -76,7 +76,7 @@ const ContentProduct: React.FC<PT> = ({ data }) => {
         if (item === "" || item === null) return null;
         return (
           <div key={index} className="field-product d-flex">
-            <p style={{ marginRight: "10%", width: "20%" }}>
+            <p style={{ marginRight: "30%", width: "20%" }}>
               {index === 0 ? "Special remarks:" : ""}
             </p>
             <p>{item}</p>

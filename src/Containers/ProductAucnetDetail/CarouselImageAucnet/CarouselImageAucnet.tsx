@@ -54,7 +54,7 @@ const CarouselImageAucnet: React.FC<PT> = ({ listImage, listImageZoom }) => {
   };
 
   return (
-    <Col span={12} className="carousel-image-container">
+    <Col span={10} className="carousel-image-container">
       <Carousel
         showArrows={true}
         // autoPlay

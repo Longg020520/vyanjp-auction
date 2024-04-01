@@ -7,14 +7,12 @@ interface PT {
   categoryName?: string;
   imgUrlCategory?: string;
   path: string;
-  spanNumber?: number;
 }
 
 const CategoryItem: React.FC<PT> = ({
   categoryName,
   imgUrlCategory,
   path,
-  spanNumber,
 }) => {
   const navegate = useNavigate();
   const handlePath = (path: string) => {
@@ -22,7 +20,9 @@ const CategoryItem: React.FC<PT> = ({
   };
   return (
     <Col
-      span={spanNumber}
+      xs={{ flex: '100%' }}
+      sm={{ flex: '50%' }}
+      xl={{ flex: '25%' }}
       className="category-item-container"
       onClick={() => handlePath(path)}
     >

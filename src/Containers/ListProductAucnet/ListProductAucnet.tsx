@@ -85,7 +85,6 @@ const ListProductAucnet = () => {
                 <CardProductItem
                   key={index}
                   dataProduct={item}
-                  spanNumber={6}
                 />
               );
             })}

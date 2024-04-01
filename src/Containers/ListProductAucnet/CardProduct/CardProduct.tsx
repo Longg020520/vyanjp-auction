@@ -17,7 +17,6 @@ const CardProduct = () => {
               path={item.path}
               categoryName={item.name}
               imgUrlCategory={item.imgUrl}
-              spanNumber={6}
             />
           );
         })}
@@ -31,7 +30,6 @@ const CardProduct = () => {
               path={item.path}
               categoryName={item.name}
               imgUrlCategory={item.imgUrl}
-              spanNumber={6}
             />
           );
         })}

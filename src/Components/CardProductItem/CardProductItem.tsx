@@ -6,18 +6,19 @@ import { ProductItemType } from "../../Types";
 
 interface PT {
   dataProduct?: ProductItemType;
-  spanNumber?: number;
   // navigateDetailItem: (id: string) => void;
 }
 
-const CardProductItem: React.FC<PT> = ({ spanNumber, dataProduct }) => {
+const CardProductItem: React.FC<PT> = ({  dataProduct }) => {
   const navegate = useNavigate();
   const handlePath = (uketsukeBng: string | undefined) => {
     navegate(`/vyanjp-auction/aucnet/detail?uketsukeBng=${uketsukeBng}`);
   };
   return (
     <Col
-      span={spanNumber}
+      xs={{ flex: '100%' }}
+      sm={{ flex: '50%' }}
+      xl={{ flex: '25%' }}
       className="product-item-container"
       onClick={() => handlePath(dataProduct?.uketsukeBng)}
     >

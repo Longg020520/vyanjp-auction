@@ -5,3 +5,10 @@ export enum queryEnum {
   maker = "maker",
   uketsukeBng = "uketsukeBng",
 }
+
+
+export type WindowDimensionsType = {
+  width: number
+  height: number
+  isMobile: boolean
+}

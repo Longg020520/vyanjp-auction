@@ -33,7 +33,6 @@ const CategoryBody = () => {
                     path={item.path}
                     categoryName={item.name}
                     imgUrlCategory={item.imgUrl}
-                    spanNumber={6}
                   />
                 );
               })}
