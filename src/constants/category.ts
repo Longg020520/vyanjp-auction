@@ -1,186 +1,185 @@
 export const LIST_MARKET = [
   {
     imgUrl:
-      "https://cdn-au.onetrust.com/logos/d49fc0f9-77ac-42fa-a783-28019ea5a557/dfa15a00-9ef4-4a0e-991a-ea875fb3eba9/75cf722e-2f12-436c-8b16-bf1ddc7150fc/AUCNET.jpg",
-    name: "Aucnet auction",
-    path: "/vyanjp-auction/aucnet",
+      'https://cdn-au.onetrust.com/logos/d49fc0f9-77ac-42fa-a783-28019ea5a557/dfa15a00-9ef4-4a0e-991a-ea875fb3eba9/75cf722e-2f12-436c-8b16-bf1ddc7150fc/AUCNET.jpg',
+    name: 'Aucnet auction',
+    path: '/vyanjp-auction/aucnet',
     content:
-      "Aucnet Auction là  một trong những trang đấu giá hàng đầu của Nhật Bản với một loạt các mặt hàng chất lượng cao được mua qua mạng lưới nội bộ. Chúng tôi cung cấp các phiên đấu giá với đội ngũ sản phẩm tốt nhất và các người mua hàng tốt nhất từ Nhật Bản đến thế giới.",
-    color: "red",
+      'Aucnet Auction là  một trong những trang đấu giá hàng đầu của Nhật Bản với một loạt các mặt hàng chất lượng cao được mua qua mạng lưới nội bộ. Chúng tôi cung cấp các phiên đấu giá với đội ngũ sản phẩm tốt nhất và các người mua hàng tốt nhất từ Nhật Bản đến thế giới.',
+    color: 'red',
   },
   {
     imgUrl:
-      "https://www.8brandingdesign.com/works/contents/wp-content/uploads/2016/11/04-13-800x600.jpg",
-    name: "Starbuyers auction",
-    path: "starbuyers",
+      'https://www.8brandingdesign.com/works/contents/wp-content/uploads/2016/11/04-13-800x600.jpg',
+    name: 'Starbuyers auction',
+    path: 'starbuyers',
     content:
-      "Starbuyers Auction là  một trong những trang đấu giá hàng đầu của Nhật Bản với một loạt các mặt hàng chất lượng cao được mua qua mạng lưới nội bộ. Chúng tôi cung cấp các phiên đấu giá với đội ngũ sản phẩm tốt nhất và các người mua hàng tốt nhất từ Nhật Bản đến thế giới.",
-    color: "blue",
+      'Starbuyers Auction là  một trong những trang đấu giá hàng đầu của Nhật Bản với một loạt các mặt hàng chất lượng cao được mua qua mạng lưới nội bộ. Chúng tôi cung cấp các phiên đấu giá với đội ngũ sản phẩm tốt nhất và các người mua hàng tốt nhất từ Nhật Bản đến thế giới.',
+    color: 'blue',
   },
   {
     imgUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQlS5GKV_Q6bcGVETuWkFcYJ_84XIPFvuqIpIGyr9cDFqR4honM271dOAx1JuvR6gHjk&usqp=CAU",
-    name: "Japan brand auction",
-    path: "japanBrand",
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQlS5GKV_Q6bcGVETuWkFcYJ_84XIPFvuqIpIGyr9cDFqR4honM271dOAx1JuvR6gHjk&usqp=CAU',
+    name: 'Japan brand auction',
+    path: 'japanBrand',
     content:
-      "Japan Brand Auction là  một trong những trang đấu giá hàng đầu của Nhật Bản với một loạt các mặt hàng chất lượng cao được mua qua mạng lưới nội bộ. Chúng tôi cung cấp các phiên đấu giá với đội ngũ sản phẩm tốt nhất và các người mua hàng tốt nhất từ Nhật Bản đến thế giới.",
-    color: "green",
+      'Japan Brand Auction là  một trong những trang đấu giá hàng đầu của Nhật Bản với một loạt các mặt hàng chất lượng cao được mua qua mạng lưới nội bộ. Chúng tôi cung cấp các phiên đấu giá với đội ngũ sản phẩm tốt nhất và các người mua hàng tốt nhất từ Nhật Bản đến thế giới.',
+    color: 'green',
   },
 ];
 
 export const LIST_CATEGORY_AUCNET = [
   {
-    name: "Đồng hồ",
-    path: "/vyanjp-auction/aucnet/category?genre=Watch",
-    imgUrl: "https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png",
+    name: 'Đồng hồ',
+    path: '/vyanjp-auction/aucnet/category?genre=Watch',
+    imgUrl: 'https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png',
   },
   {
-    name: "Túi sách",
-    path: "/vyanjp-auction/aucnet/category?genre=Bag",
-    imgUrl: "https://cdn.janbox.com/image/default/2021/10/9/20211009092332.png",
+    name: 'Túi sách',
+    path: '/vyanjp-auction/aucnet/category?genre=Bag',
+    imgUrl: 'https://cdn.janbox.com/image/default/2021/10/9/20211009092332.png',
   },
   {
-    name: "Kim loại & đá quý",
-    path: "/vyanjp-auction/aucnet/category?genre=Precious metal",
+    name: 'Kim loại & đá quý',
+    path: '/vyanjp-auction/aucnet/category?genre=Precious metal',
     imgUrl:
-      "https://thienmochuong.com/wp-content/uploads/2021/08/da-quy-2-e1627925190843.jpg",
+      // "https://thienmochuong.com/wp-content/uploads/2021/08/da-quy-2-e1627925190843.jpg",
+      'https://cdn.janbox.com/image/default/2022/3/31/20220331073223.png',
   },
   {
-    name: "Thời trang",
-    path: "/vyanjp-auction/aucnet/category?genre=Clothing",
-    imgUrl: "https://cdn.janbox.com/image/default/2021/10/9/20211009091931.png",
+    name: 'Thời trang',
+    path: '/vyanjp-auction/aucnet/category?genre=Clothing',
+    imgUrl: 'https://cdn.janbox.com/image/default/2021/10/9/20211009091931.png',
   },
   {
-    name: "Phụ kiện",
-    path: "/vyanjp-auction/aucnet/category?genre=Accessories",
+    name: 'Phụ kiện',
+    path: '/vyanjp-auction/aucnet/category?genre=Accessories',
+    imgUrl: 'https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png',
+  },
+  {
+    name: 'Bộ đồ ăn',
+    path: '/vyanjp-auction/aucnet/category?genre=Tableware',
     imgUrl:
-      "data:image/jpeg;base64,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",
+      // "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYDSRmyJaXUrav8kQ_MrLg6CyZ1MJIIx80-A&usqp=CAU",
+      'https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png',
   },
   {
-    name: "Bộ đồ ăn",
-    path: "/vyanjp-auction/aucnet/category?genre=Tableware",
+    name: 'Đồ chơi',
+    path: '/vyanjp-auction/aucnet/category?genre=Variety',
     imgUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYDSRmyJaXUrav8kQ_MrLg6CyZ1MJIIx80-A&usqp=CAU",
+      // "https://t3.ftcdn.net/jpg/00/57/08/46/360_F_57084608_ciyjhtwgdKSjeZwhDTNDyuMdWik8gNF9.jpg",
+      'https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png',
   },
   {
-    name: "Đồ chơi",
-    path: "/vyanjp-auction/aucnet/category?genre=Variety",
+    name: 'Hội hoạ & nghệ thuật',
+    path: '/vyanjp-auction/aucnet/category?genre=PaintingArt',
     imgUrl:
-      "https://t3.ftcdn.net/jpg/00/57/08/46/360_F_57084608_ciyjhtwgdKSjeZwhDTNDyuMdWik8gNF9.jpg",
+      // "https://www.pictoclub.com/wp-content/uploads/2021/09/painting-brushes-scaled.jpg",
+      'https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png',
   },
   {
-    name: "Hội hoạ & nghệ thuật",
-    path: "/vyanjp-auction/aucnet/category?genre=PaintingArt",
+    name: 'Coin',
+    path: '/vyanjp-auction/aucnet/category?genre=Coin',
     imgUrl:
-      "https://www.pictoclub.com/wp-content/uploads/2021/09/painting-brushes-scaled.jpg",
-  },
-  {
-    name: "Coin",
-    path: "/vyanjp-auction/aucnet/category?genre=Coin",
-    imgUrl:
-      "https://t3.ftcdn.net/jpg/01/94/67/20/360_F_194672016_pf5HYgLlm6XlSwuL7JE4Pqvdq0RFqK7V.jpg",
+      // "https://t3.ftcdn.net/jpg/01/94/67/20/360_F_194672016_pf5HYgLlm6XlSwuL7JE4Pqvdq0RFqK7V.jpg",
+      'https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png',
   },
 ];
 export const LIST_CATEGORY_STARBUYER = [
   {
-    name: "Đồng hồ",
-    path: "watch",
-    imgUrl: "https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png",
+    name: 'Đồng hồ',
+    path: 'watch',
+    imgUrl: 'https://cdn.janbox.com/image/default/2021/10/9/20211009091544.png',
   },
   {
-    name: "Đồ trang sức thương hiệu",
-    path: "brandJewelry",
-    imgUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTazadC1YANBSCdwShDL8Ms2o1TuBzZ9t-_hw&usqp=CAU",
+    name: 'Đồ trang sức thương hiệu',
+    path: 'brandJewelry',
+    imgUrl: 'https://cdn.janbox.com/image/default/2022/3/31/20220331073223.png',
   },
   {
-    name: "Trang sức",
-    path: "Jewelry",
-    imgUrl:
-      "https://www.realsimple.com/thmb/I5B9jL1FmoiP8li9PiXjRr1QNaU=/fit-in/1500x1000/filters:no_upscale():max_bytes(150000):strip_icc()/bonheur-jewelry-chunky-tennis-bracelet-6dc23852f72f40649a00f58b9cb0ea36.jpg",
+    name: 'Trang sức',
+    path: 'Jewelry',
+    imgUrl: 'https://cdn.janbox.com/image/default/2022/3/31/20220331073223.png',
   },
   {
-    name: "Túi sách",
-    path: "bag",
-    imgUrl: "https://cdn.janbox.com/image/default/2021/10/9/20211009092332.png",
+    name: 'Túi sách',
+    path: 'bag',
+    imgUrl: 'https://cdn.janbox.com/image/default/2021/10/9/20211009092332.png',
   },
   {
-    name: "Phụ kiện",
-    path: "accessories",
-    imgUrl:
-      "data:image/jpeg;base64,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",
+    name: 'Phụ kiện',
+    path: 'accessories',
+    imgUrl: 'https://cdn.janbox.com/image/default/2022/3/31/20220331073223.png',
   },
   {
-    name: "Giày dép",
-    path: "shoes",
-    imgUrl:
-      "https://img.freepik.com/free-vector/hand-drawn-running-shoes-cartoon-illustration_23-2150961844.jpg",
+    name: 'Giày dép',
+    path: 'shoes',
+    imgUrl: '	https://cdn.janbox.com/image/default/2022/3/31/20220331073912.png',
   },
   {
-    name: "Thời trang",
-    path: "Apparel",
-    imgUrl: "https://cdn.janbox.com/image/default/2021/10/9/20211009091931.png",
+    name: 'Thời trang',
+    path: 'Apparel',
+    imgUrl: 'https://cdn.janbox.com/image/default/2021/10/9/20211009091931.png',
   },
   {
-    name: "Thương hiệu bạc",
-    path: "silverBrand",
-    imgUrl:
-      "https://5.imimg.com/data5/LV/MI/SE/SELLER-2090301/silver-jewel-500x500.jpg",
+    name: 'Thương hiệu bạc',
+    path: 'silverBrand',
+    imgUrl: 'https://cdn.janbox.com/image/default/2022/3/31/20220331073223.png',
   },
 ];
 
 export const LIST_BRAND = [
   {
-    name: "GUCCI",
-    path: "/vyanjp-auction/aucnet/category?maker=Gucci",
+    name: 'GUCCI',
+    path: '/vyanjp-auction/aucnet/category?maker=Gucci',
     imgUrl:
-      "https://i.pinimg.com/originals/31/32/d7/3132d7cc02cdd9ceacd7bceb0738828d.png",
+      'https://i.pinimg.com/originals/31/32/d7/3132d7cc02cdd9ceacd7bceb0738828d.png',
   },
   {
-    name: "Rolex",
-    path: "/vyanjp-auction/aucnet/category?maker=ROLEX",
-    imgUrl: "https://stiko.fr/371-large_default/sticker-rolex-round.jpg",
+    name: 'Rolex',
+    path: '/vyanjp-auction/aucnet/category?maker=ROLEX',
+    imgUrl: 'https://stiko.fr/371-large_default/sticker-rolex-round.jpg',
   },
   {
-    name: "CHANEL",
-    path: "/vyanjp-auction/aucnet/category?maker=CHANEL",
+    name: 'CHANEL',
+    path: '/vyanjp-auction/aucnet/category?maker=CHANEL',
     imgUrl:
-      "https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png",
+      'https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png',
   },
   {
-    name: "LUIS VUITTON",
-    path: "/vyanjp-auction/aucnet/category?maker=LOUIS VUITTON",
+    name: 'LUIS VUITTON',
+    path: '/vyanjp-auction/aucnet/category?maker=LOUIS VUITTON',
     imgUrl:
-      "https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png",
+      'https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png',
   },
   {
-    name: "HERMES",
-    path: "/vyanjp-auction/aucnet/category?maker=HERMES",
+    name: 'HERMES',
+    path: '/vyanjp-auction/aucnet/category?maker=HERMES',
     imgUrl:
-      "https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png",
+      'https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png',
   },
   {
-    name: "CHRISTIAN DIOR",
-    path: "/vyanjp-auction/aucnet/category?maker=Christian Dior",
+    name: 'CHRISTIAN DIOR',
+    path: '/vyanjp-auction/aucnet/category?maker=Christian Dior',
     imgUrl:
-      "https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png",
+      'https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png',
   },
   {
-    name: "FENDI",
-    path: "/vyanjp-auction/aucnet/category?maker=FENDI",
+    name: 'FENDI',
+    path: '/vyanjp-auction/aucnet/category?maker=FENDI',
     imgUrl:
-      "https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png",
+      'https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png',
   },
   {
-    name: "SEIKO",
-    path: "/vyanjp-auction/aucnet/category?maker=SEIKO",
+    name: 'SEIKO',
+    path: '/vyanjp-auction/aucnet/category?maker=SEIKO',
     imgUrl:
-      "https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png",
+      'https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png',
   },
   {
-    name: "OMEGA",
-    path: "/vyanjp-auction/aucnet/category?maker=OMEGA",
+    name: 'OMEGA',
+    path: '/vyanjp-auction/aucnet/category?maker=OMEGA',
     imgUrl:
-      "https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png",
+      'https://mediaelly.sgp1.digitaloceanspaces.com/uploads/2021/01/06205934/y-nghia-logo-thuong-hieu-chanel.png',
   },
 ];

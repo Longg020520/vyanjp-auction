@@ -5,6 +5,7 @@ import { ProductDetailType } from "../../../Types";
 
 interface PT {
   data: ProductDetailType;
+  span?: number;
 }
 
 const listField = [
@@ -51,9 +52,9 @@ const listField = [
   },
 ];
 
-const ContentProduct: React.FC<PT> = ({ data }) => {
+const ContentProduct: React.FC<PT> = ({ data , span}) => {
   return (
-    <Col span={14} className="content-product-container">
+    <Col span={span} className="content-product-container">
       <div className="field-product d-flex">
         <p style={{ marginRight: "30%", width: "20%" }}>Start Price:</p>
         <p className="text-bold">{data.startKng} yen</p>

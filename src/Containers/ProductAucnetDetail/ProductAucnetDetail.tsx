@@ -1,5 +1,5 @@
 /* eslint-disable prefer-const */
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import "./ProductAucnetDetail.scss";
 import { Row } from "antd";
 import { queryEnum } from "../../Types/global.type";
@@ -9,6 +9,7 @@ import { ProductDetailType } from "../../Types";
 import aucnetAPI from "../Aucnet/services/Aucnet.api";
 import CarouselImageAucnet from "./CarouselImageAucnet/CarouselImageAucnet";
 import ContentProduct from "./ContentProduct/ContentProduct";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const ProductAucnetDetail = () => {
   const [data, setData] = React.useState<ProductDetailType>({
@@ -54,12 +55,16 @@ const ProductAucnetDetail = () => {
   const getData = async () => {
     try {
       const data = await aucnetAPI.getProductDetail(uketsukeBng);
-      console.log("data123", data.data);
+      // console.log("data123", data.data);
       setData(data?.data);
     } catch (error) {
       console.error("Error fetching data:", error);
     }
   };
+
+  const { width } = useWindowDimensions();
+
+  const isMobile = useMemo(() => width < 640, [width]);
 
 
   useEffect(() => {
@@ -67,16 +72,17 @@ const ProductAucnetDetail = () => {
   }, [uketsukeBng]);
 
   return (
-    <Row className="product-aucnet-detail-container">
+    <Row gutter={[16, 16]} className="product-aucnet-detail-container">
       <CarouselImageAucnet
         listImage={[...data.photoUrlList, ...data.adminPhotoUrlList]}
         listImageZoom={[
           ...data.zoomPhotoUrlList,
           ...data.adminZoomPhotoUrlList,
         ]}
+        span={isMobile ? 24 : 10}
       />
 
-      <ContentProduct data={data} />
+      <ContentProduct data={data} span={isMobile ? 24 : 14} />
     </Row>
   );
 };

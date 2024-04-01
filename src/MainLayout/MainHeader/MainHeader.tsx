@@ -52,6 +52,7 @@ const MainHeader = () => {
             <option value="mercedes">Japan Brand Auction</option>
           </select>
           <input
+            style={{ borderRadius: `${!isMobile ? 'none' : '0px'}` }}
             type="text"
             className="input-custom"
             autoComplete="off"

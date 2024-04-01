@@ -1,15 +1,20 @@
-import React, { useState } from "react";
-import "./CarouselImageAucnet.scss";
-import { Col, Modal } from "antd";
-import { Carousel } from "react-responsive-carousel";
-import { LeftOutlined, RightOutlined } from "@ant-design/icons";
+import React, { useState } from 'react';
+import './CarouselImageAucnet.scss';
+import { Col, Modal } from 'antd';
+import { Carousel } from 'react-responsive-carousel';
+import { LeftOutlined, RightOutlined } from '@ant-design/icons';
 
 interface PT {
   listImage: string[];
   listImageZoom: string[];
+  span: number;
 }
 
-const CarouselImageAucnet: React.FC<PT> = ({ listImage, listImageZoom }) => {
+const CarouselImageAucnet: React.FC<PT> = ({
+  listImage,
+  listImageZoom,
+  span,
+}) => {
   // const onChange = () => {
   //   console.log("onChange");
   // };
@@ -21,7 +26,7 @@ const CarouselImageAucnet: React.FC<PT> = ({ listImage, listImageZoom }) => {
   // };
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [image, setImage] = useState<string>("");
+  const [image, setImage] = useState<string>('');
   const [indexImage, setIndexImage] = useState<number>(0);
 
   const showModal = (index: number) => {
@@ -35,7 +40,7 @@ const CarouselImageAucnet: React.FC<PT> = ({ listImage, listImageZoom }) => {
   };
 
   const handleCancel = () => {
-    setImage("");
+    setImage('');
     setIsModalOpen(false);
   };
 
@@ -54,7 +59,7 @@ const CarouselImageAucnet: React.FC<PT> = ({ listImage, listImageZoom }) => {
   };
 
   return (
-    <Col span={10} className="carousel-image-container">
+    <Col span={span} className="carousel-image-container">
       <Carousel
         showArrows={true}
         // autoPlay
@@ -79,7 +84,11 @@ const CarouselImageAucnet: React.FC<PT> = ({ listImage, listImageZoom }) => {
           <div className=" d-flex j-center" onClick={() => handlePrevImage()}>
             <LeftOutlined />
           </div>
-          <img alt="" src={image && image} />
+          <img
+            alt=""
+            src={image && image}
+            style={{ maxWidth: '100%', maxHeight: '100%' }}
+          />
           <div className="d-flex j-center" onClick={() => handleNextImage()}>
             <RightOutlined />
           </div>

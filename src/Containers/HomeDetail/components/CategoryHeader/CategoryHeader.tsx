@@ -58,7 +58,13 @@ const CategoryHeader = () => {
                 key={index}
                 onClick={() => handleMarketChange(index)}
               >
-                <img src={item.imgUrl} alt="logo" />
+                <div style={{ paddingRight: '10px' }}>
+                  <img
+                    src={item.imgUrl}
+                    alt="logo"
+                    style={{ width: !isMobile ? '60px' : '40px' }}
+                  />
+                </div>
                 <div
                   className={`list-market-item-text ${
                     index === 0 && market === 'AA'
@@ -82,7 +88,10 @@ const CategoryHeader = () => {
             {listCategory.map((item, index) => {
               return (
                 <Col
-                  span={8}
+                  // span={8}
+                  xs={{ flex: '50%' }}
+                  sm={{ flex: '50%' }}
+                  xl={{ flex: '33%' }}
                   className="category-name"
                   key={index}
                   onClick={() => handleNavigateChange(item.path)}

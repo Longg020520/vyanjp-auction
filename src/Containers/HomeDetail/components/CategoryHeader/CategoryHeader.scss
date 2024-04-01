@@ -9,19 +9,25 @@
     }
 
     border-right: solid 1px #dde1e6;
-    padding: 8px 16px;
+    padding: 8px 10px;
     font-size: 12rem;
     .list-market-item {
       cursor: pointer;
       display: flex;
       padding: 8px 16px;
+      display: flex;
+      align-items: center;
       img {
-        width: 60px;
+        // width: 60px;
         height: 20px;
-        margin-right: 8px;
+        // margin-right: 20px;
       }
     }
     // .list-market-item-text {
+    //   padding-left: 10px;
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
     // }
     .active {
       color: #fd7e14;
@@ -54,13 +60,13 @@
     width: 30%;
     font-size: 13rem;
     font-weight: bold;
-    padding: 13px 140px 13px 16px;
+    padding: 13px 140px 13px 10px;
     line-height: 25px;
     border-bottom: solid 1px #dde1e6;
     width: 230px;
   }
   .top-category-right {
     border-bottom: solid 1px #dde1e6;
-    padding: 13px 16px;
+    padding: 13px 10px;
   }
 }

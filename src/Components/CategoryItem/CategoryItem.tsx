@@ -20,7 +20,7 @@ const CategoryItem: React.FC<PT> = ({
   };
   return (
     <Col
-      xs={{ flex: '100%' }}
+      xs={{ flex: '50%' }}
       sm={{ flex: '50%' }}
       xl={{ flex: '25%' }}
       className="category-item-container"

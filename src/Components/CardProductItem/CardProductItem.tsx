@@ -16,7 +16,7 @@ const CardProductItem: React.FC<PT> = ({  dataProduct }) => {
   };
   return (
     <Col
-      xs={{ flex: '100%' }}
+      xs={{ flex: '50%' }}
       sm={{ flex: '50%' }}
       xl={{ flex: '25%' }}
       className="product-item-container"
