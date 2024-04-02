@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.dec649fa.css",
-    "main.js": "/static/js/main.93fe39de.js",
+    "main.js": "/static/js/main.35953f12.js",
     "static/media/Bebeboo-Regular.ttf": "/static/media/Bebeboo-Regular.4d0de13c270d9ecefb12.ttf",
     "static/media/something-went-wrong.png": "/static/media/something-went-wrong.89c2bd79c878b3aa4160.png",
     "index.html": "/index.html",
     "main.dec649fa.css.map": "/static/css/main.dec649fa.css.map",
-    "main.93fe39de.js.map": "/static/js/main.93fe39de.js.map"
+    "main.35953f12.js.map": "/static/js/main.35953f12.js.map"
   },
   "entrypoints": [
     "static/css/main.dec649fa.css",
-    "static/js/main.93fe39de.js"
+    "static/js/main.35953f12.js"
   ]
 }
