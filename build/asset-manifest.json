@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb81e8c6.css",
-    "main.js": "/static/js/main.3d5270cf.js",
-    "static/media/Mulish-Regular.ttf": "/static/media/Mulish-Regular.d3d302e1573fb1c8db5b.ttf",
+    "main.css": "/static/css/main.dec649fa.css",
+    "main.js": "/static/js/main.93fe39de.js",
+    "static/media/Bebeboo-Regular.ttf": "/static/media/Bebeboo-Regular.4d0de13c270d9ecefb12.ttf",
     "static/media/something-went-wrong.png": "/static/media/something-went-wrong.89c2bd79c878b3aa4160.png",
     "index.html": "/index.html",
-    "main.bb81e8c6.css.map": "/static/css/main.bb81e8c6.css.map",
-    "main.3d5270cf.js.map": "/static/js/main.3d5270cf.js.map"
+    "main.dec649fa.css.map": "/static/css/main.dec649fa.css.map",
+    "main.93fe39de.js.map": "/static/js/main.93fe39de.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb81e8c6.css",
-    "static/js/main.3d5270cf.js"
+    "static/css/main.dec649fa.css",
+    "static/js/main.93fe39de.js"
   ]
 }

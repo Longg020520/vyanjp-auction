@@ -1,25 +1,25 @@
 import React from "react";
-import "./CardProductItem.scss";
+import "./CardProductAucnetItem.scss";
 import { useNavigate } from "react-router-dom";
 import { Col } from "antd";
-import { ProductItemType } from "../../Types";
+import { ProductItemType } from "../../../../Types";
 
 interface PT {
   dataProduct?: ProductItemType;
   // navigateDetailItem: (id: string) => void;
 }
 
-const CardProductItem: React.FC<PT> = ({  dataProduct }) => {
+const CardProductAucnetItem: React.FC<PT> = ({  dataProduct }) => {
   const navegate = useNavigate();
   const handlePath = (uketsukeBng: string | undefined) => {
-    navegate(`/vyanjp-auction/aucnet/detail?uketsukeBng=${uketsukeBng}`);
+    navegate(`/vyanjp-auction/aucnet/product/detail/${uketsukeBng}`);
   };
   return (
     <Col
       xs={{ flex: '50%' }}
       sm={{ flex: '50%' }}
       xl={{ flex: '25%' }}
-      className="product-item-container"
+      className="product-aucnet-item-container"
       onClick={() => handlePath(dataProduct?.uketsukeBng)}
     >
       <img src={dataProduct?.albumPhotoUrl} alt={"products"} />
@@ -44,4 +44,4 @@ const CardProductItem: React.FC<PT> = ({  dataProduct }) => {
   );
 };
 
-export default React.memo(CardProductItem);
+export default React.memo(CardProductAucnetItem);

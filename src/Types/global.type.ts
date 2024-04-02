@@ -4,6 +4,9 @@ export enum queryEnum {
   genre = "genre",
   maker = "maker",
   uketsukeBng = "uketsukeBng",
+
+  category = "category",
+  productRank = "productRank",
 }
 
 

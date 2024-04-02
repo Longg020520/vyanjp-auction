@@ -10,9 +10,9 @@ import { RootState } from '../../Redux/store';
 import { categoryType } from '../Aucnet/services/Aucnet.type';
 import useGetCategoryAucnet from '../Aucnet/hooks/useGetCategoryAucnet';
 import { ProductItemType } from '../../Types';
-import CardProductItem from '../../Components/CardProductItem/CardProductItem';
 import aucnetAPI from '../Aucnet/services/Aucnet.api';
 import useWindowDimensions from '../../hooks/useWindowDimensions';
+import CardProductAucnetItem from './components/CardProductAucnetItem/CardProductAucnetItem';
 
 const ListProductAucnet = () => {
   const listCategory = useSelector<RootState, categoryType[] | null>(
@@ -43,10 +43,9 @@ const ListProductAucnet = () => {
   };
 
   const navigateMaker = (maker: string) => {
-    let query = '/vyanjp-auction/aucnet/category?';
+    let query = '/vyanjp-auction/aucnet/product?';
     if (genre) query = query.concat(`genre=${genre}&`);
     window.location.replace(`${query}maker=` + maker);
-    // console.log(window.location.pathname + `?maker=` + maker);
   };
 
   const onShowSizeChange = (current: any, pageSize: any) => {
@@ -68,9 +67,7 @@ const ListProductAucnet = () => {
         <SidebarProductAucnet
           listMaker={
             listCategory && genre
-              ? listCategory
-                  .filter((item) => item.genre === genre)[0]
-                  ?.maker.slice(0, 10)
+              ? listCategory.filter((item) => item.genre === genre)[0]?.maker
               : [
                   {
                     maker,
@@ -79,6 +76,7 @@ const ListProductAucnet = () => {
           }
           navigateMaker={navigateMaker}
           span={6}
+          maker={maker && maker}
         />
       )}
       {dataProduct.length === 0 ? (
@@ -89,7 +87,7 @@ const ListProductAucnet = () => {
         <Col span={!isMobile ? 18 : 24} className="content-product-container">
           <Row gutter={[16, 16]}>
             {dataProduct.map((item, index) => {
-              return <CardProductItem key={index} dataProduct={item} />;
+              return <CardProductAucnetItem key={index} dataProduct={item} />;
             })}
           </Row>
           <div className="pagination-container d-flex j-center m-bottom-20">

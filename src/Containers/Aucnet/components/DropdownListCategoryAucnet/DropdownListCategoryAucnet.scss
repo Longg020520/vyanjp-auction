@@ -1,0 +1,34 @@
+.dropdown-category-aucnet-container {
+  .dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+
+    cursor: pointer;
+    &:hover {
+      color: #fd7e14;
+    }
+
+    .categoryName {
+      // font-size: 12rem;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    .icon {
+      font-size: 12px;
+      margin-top: 16px;
+    }
+  }
+
+  .children-category {
+    padding-left: 24px;
+    .categoryName {
+      cursor: pointer;
+      &:hover {
+        color: #fd7e14;
+      }
+    }
+  }
+}

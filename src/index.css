@@ -6,10 +6,10 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  /* font-family: var(--overall-font); */
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+  font-family: var(--overall-font);
+  /* font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
     "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+    "Segoe UI Symbol", "Noto Color Emoji"; */
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -6,12 +6,14 @@ interface PT {
   listMaker: { maker: string }[] | null;
   navigateMaker: (maker: string) => void;
   span: number;
+  maker: string;
 }
 
 const SidebarProductAucnet: React.FC<PT> = ({
   listMaker,
   navigateMaker,
   span,
+  maker,
 }) => {
   return (
     <Col span={span} className="sidebar-product-container">
@@ -19,13 +21,13 @@ const SidebarProductAucnet: React.FC<PT> = ({
       {
         <div className="dropdown-category-container">
           {listMaker &&
-            listMaker.map((maker, i) => (
+            listMaker.map((item, i) => (
               <p
                 key={i}
-                className="text-custom"
-                onClick={() => navigateMaker(maker?.maker)}
+                className={`text-custom ${maker === item.maker ? 'active' : ''}`}
+                onClick={() => navigateMaker(item?.maker)}
               >
-                {maker?.maker}
+                {item?.maker}
               </p>
             ))}
         </div>

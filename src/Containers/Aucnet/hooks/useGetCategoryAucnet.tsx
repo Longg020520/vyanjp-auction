@@ -1,14 +1,14 @@
-import { useEffect } from "react";
-import { RootState, useAppDispatch } from "../../../Redux/store";
-import { aucnetActions, getListCategoryAucnet } from "../services/Aucnet.slice";
-import { categoryType } from "../services/Aucnet.type";
-import { useSelector } from "react-redux";
+import { useEffect } from 'react';
+import { RootState, useAppDispatch } from '../../../Redux/store';
+import { aucnetActions, getListCategoryAucnet } from '../services/Aucnet.slice';
+import { categoryType } from '../services/Aucnet.type';
+import { useSelector } from 'react-redux';
 
 const useGetCategoryAucnet = () => {
   const dispatch = useAppDispatch();
 
   const listCategory = useSelector<RootState, categoryType[] | null>(
-    (state) => state.categoryAucnet.listCategory
+    (state) => state.categoryAucnet.listCategory,
   );
 
   useEffect(() => {

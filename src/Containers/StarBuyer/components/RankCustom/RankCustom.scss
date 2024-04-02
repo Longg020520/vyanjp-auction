@@ -1,0 +1,12 @@
+.rankcustom-container {
+  display: flex;
+  .rank-code {
+    margin-left: 10px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
