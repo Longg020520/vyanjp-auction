@@ -59,7 +59,7 @@ const ListProductStarbuyer = () => {
   }, [category, productRank, limit, offset]);
 
   return (
-    <Row className="list-product-aucnet-container">
+    <Row className="list-product-starbuyer-container">
       {!isMobile && (
         <SidebarProductStarBuyer
           navigateProductRank={navigateProductRank}

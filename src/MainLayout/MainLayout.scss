@@ -1,5 +1,5 @@
-.main-layout-container {
-  font-family: var(--overall-font);
+.main-layout {
+  font-family: var(--overall-font) !important;
 
   // .ant-modal-content {
   //   // height: 570rem;
@@ -10,6 +10,11 @@
   //     display: flex;
   //   }
   // }
+  
+.ant-col,
+.ant-row {
+  font-family: var(--overall-font) !important;
+}
 }
 
 .main-layout-main {

@@ -23,12 +23,9 @@
         // margin-right: 20px;
       }
     }
-    // .list-market-item-text {
-    //   padding-left: 10px;
-    //   display: flex;
-    //   justify-content: center;
-    //   align-items: center;
-    // }
+    .list-market-item-text {
+      font-size: 13rem;
+    }
     .active {
       color: #fd7e14;
     }
@@ -44,7 +41,7 @@
     .category-name {
       padding: 8px 16px;
       display: flex;
-      font-size: 12rem;
+      font-size: 13rem;
       width: 33%;
 
       &:hover {

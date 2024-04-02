@@ -16,7 +16,7 @@ const SidebarProductStarBuyer: React.FC<PT> = ({
 }) => {
   return (
     <Col span={span} className="sidebar-product-starbuyer-container">
-      <div className="category-name">Danh mục</div>
+      <h3>Danh mục</h3>
       {
         <div className="dropdown-category-container">
           {RANK_CATEGORY_STARBUYER.map((item, i) => (

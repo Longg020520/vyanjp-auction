@@ -1,11 +1,14 @@
 .text-custom {
   cursor: pointer;
+  font-size: 13rem;
   &:hover {
     color: #fd7e14;
   }
 }
 .text-bold {
-  font-weight: bold;
+  font-weight: bold !important;
+  font-size: 13rem !important;
+  color: black;
 }
 
 .d-flex {
@@ -27,4 +30,14 @@
   background-position: center;
   height: 50vh;
 
+}
+
+h3 {
+  font-size: 18rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20rem;
+  font-weight: bold;
 }

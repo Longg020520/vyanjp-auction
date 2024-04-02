@@ -17,7 +17,7 @@ const SidebarProductAucnet: React.FC<PT> = ({
 }) => {
   return (
     <Col span={span} className="sidebar-product-container">
-      <div className="category-name">Danh mục</div>
+      <h3>Danh mục</h3>
       {
         <div className="dropdown-category-container">
           {listMaker &&
